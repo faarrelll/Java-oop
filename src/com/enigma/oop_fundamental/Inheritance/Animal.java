@@ -1,6 +1,6 @@
 package com.enigma.oop_fundamental.Inheritance;
 
-public class Animal {
+public class Animal extends Kingdom{
     String name;
 
     public Animal(String name) {
