@@ -8,10 +8,11 @@ public class Car {
 
     /*
     Acces modifier
+    -> mekanisme atau syntax untuk mengatur tingkat aksesbilitas dari field atau method.
     1. public -> dapat diakses dari manapun
     2. default -> hanya dapat diakses dari package yang sama
-    3. protected ->
-    4. private.
+    3. protected -> hanya dapat diakses didalam package yang sama dan dari sub classnya
+    4. private -> hanya dapat diakses di kelas yang sama
      */
     //property
     String model;
